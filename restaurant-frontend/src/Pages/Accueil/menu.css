@@ -1,0 +1,91 @@
+:root {
+    --orange: #ff6b6b;
+    --org: #fb911f;
+    --orange-clair: #fb911f4f;
+    --fushia: #794afa;
+    --grisf: #453c5c;
+
+    --blanc: #ffffff;
+    --bg-light: #f2f3f5;
+    --text-light: #7c899a;
+    --border: #e5e8ec;
+    --dark: #0a021c;
+
+    --font-small: 13px;
+    --font-smaller: 11px;
+
+    --pc100: 100%;
+    --pc50: 50%;
+
+    --fw3: 300;
+    --fw5: 500;
+    --fw6: 600;
+    --fw7: 700;
+    --fw8: 800;
+
+    --transition-bgcolor: background-color .3s, color .3s;
+    --transition-bg: background-color: .3s;
+    --transition-color: color .3s;
+}
+
+.titre{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu{
+    margin-top: -100px;
+}
+
+.menu .contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.menu .contenu .box{
+    width: 250px;
+    margin: 15px;
+    border: 15px solid #fff;
+    box-shadow: 20px 15px 35px var(--text-light);
+}
+
+.menu .contenu .box .imbox{
+    position: relative;
+    width: 100%;
+    height: 210px;
+}
+
+.menu .contenu .box .imbox img{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 210px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* .menu .contenu .box .text{
+    background-color: var(--grisf);
+    color: var(--blanc);
+    width: 120%;
+    margin: auto;
+} */
+
+
+
+/* model-viewer {
+  src={src} 
+  alt={alt} 
+  auto-rotate 
+  camera-controls 
+  ar 
+  shadow-intensity="1"
+  exposure="1"
+  environment-image="neutral"
+  style={{ width, height }} 
+} */

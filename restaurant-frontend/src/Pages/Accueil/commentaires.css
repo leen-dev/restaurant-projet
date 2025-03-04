@@ -1,0 +1,88 @@
+.commentaires{
+    color: #fff;
+    padding-top: -100px;
+    /* background-image: url(images/fond1.png); */
+    background-size: cover;
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.commentaires .contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.commentaires .contenu .box{
+    width: 240px;
+    margin: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+    background: var(--text-light);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 6px var(--blanc)
+}
+
+.commentaires .contenu .box .imbox{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.commentaires .contenu .box .imbox img{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.commentaires .contenu .box .text{
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    font-size: 0.6em;
+}
+
+.blanc .titre-texte, .blanc p{
+    color: #fff;
+    font-size: 2rem;
+    color: #ff4500;
+}
+
+.text p {
+    font-size: 1rem;
+    color: #333;
+}
+
+details {
+    cursor: pointer;
+    margin-top: 10px;
+    color: #ff4500;
+}
+
+
+

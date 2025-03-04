@@ -1,0 +1,146 @@
+:root {
+    --orange: #ff6b6b;
+    --org: #fb911f;
+    --orange-clair: #fb911f4f;
+    --fushia: #794afa;
+    --grisf: #453c5c;
+
+    --blanc: #ffffff;
+    --bg-light: #f2f3f5;
+    --text-light: #7c899a;
+    --border: #e5e8ec;
+    --dark: #0a021c;
+
+    --font-small: 13px;
+    --font-smaller: 11px;
+
+    --pc100: 100%;
+    --pc50: 50%;
+
+    --fw3: 300;
+    --fw5: 500;
+    --fw6: 600;
+    --fw7: 700;
+    --fw8: 800;
+
+    --transition-bgcolor: background-color .3s, color .3s;
+    --transition-bg: background-color: .3s;
+    --transition-color: color .3s;
+}
+
+.iconmenu {
+    display: none;
+}
+
+header .nav1 {
+    /* position: fixed; */
+    top: 0%;
+    right: 0px;
+    padding: 10px;
+    max-width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+    background-color: var(--orange-clair);
+
+}
+
+/* .social{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    max-width: 40%;
+} */
+
+.social img{
+    /* width: 30px; */
+    padding-left: 10px;
+}
+
+#f{
+    border-radius: 50%;
+    width: 23px;
+}
+
+#w{
+    width: 27px;
+}
+
+#i{
+    width: 23px;
+}
+
+#t{
+    width: 18px;
+}
+
+/* .divlogo{
+    max-width: 40%;
+} */
+
+.logo {
+    font-weight: var(--fw5);
+    font-size: 2em;
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.logo span {
+    color: #FF00FF;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+}
+
+.navbar .top {
+    display: none;
+}
+
+.btn-reserve {
+    padding: 10px 20px;
+    background-color: #fb911f;
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+
+.btn-reserve:hover {
+    background-color: #d1791b;
+    transition: ease-out;
+}
+
+ul {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    max-width: 100%; 
+    padding: 0px 30px;
+    display: flex;
+    justify-content: flex-end; 
+    /* align-items: center; */
+    /* background: rgba(255, 255, 255, 0.1);  */
+    /* backdrop-filter: blur(5px);  */
+    z-index: 10; 
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+    margin-left: 30px;
+    font-weight: var(--fw7);
+    font-size: 18px;
+}
+
+li a:hover {
+    color: #fb911f;
+    border-bottom: 2px solid #fb911f;
+}
+

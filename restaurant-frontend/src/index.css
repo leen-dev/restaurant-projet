@@ -1,0 +1,51 @@
+/*
+nowrap : pas de retour à la ligne (par défaut) ; wrap : les éléments vont à la ligne lorsqu'il n'y a plus la place ; wrap-reverse : les éléments vont à la ligne, lorsqu'il n'y a plus la place, en sens inverse.
+
+
+La propriété display en CSS est très puissante, car elle permet de modifier la façon dont un élément s’affiche dans une page. Voici quelques points importants à retenir à propos de cette propriété :
+
+Valeurs de la propriété display :
+display: none; : Cette valeur masque complètement l’élément, le rendant invisible à l’écran.
+    Cependant, l’espace qu’il occupe est conservé dans la mise en page.
+    Cela signifie que même s’il n’est pas affiché visuellement, il peut encore affecter la disposition des autres éléments autour de lui.
+display: block; : Transforme l’élément en un bloc, prenant toute la largeur disponible et commençant une nouvelle ligne.
+    Les marges, bordures et rembourrages s’appliquent à cet élément.
+display: inline; : L’élément est affiché en ligne, sans forcer un saut de ligne.
+    Il ne prend que l’espace nécessaire pour son contenu.
+display: inline-block; : Combine les propriétés des éléments en ligne et des éléments de bloc.
+    Il occupe l’espace nécessaire pour son contenu, mais peut également avoir des marges, bordures et rembourrages.
+display: flex; : Crée un conteneur flexible pour organiser les éléments enfants en lignes ou colonnes.
+    Utile pour la mise en page flexible.
+display: grid; : Crée un conteneur de grille pour organiser les éléments en une grille bidimensionnelle.
+Et bien d’autres valeurs encore…
+Différence entre display: none; et visibility: hidden; :
+    display: none; masque l’élément visuellement et supprime son espace dans la mise en page.
+    visibility: hidden; masque également l’élément visuellement, mais conserve son espace dans la mise en page
+
+
+    Pour retourner verticalement une image, vous pouvez utiliser la propriété transform avec la fonction scaleY() .
+    La valeur scaleY(-1) retourne l'image le long de l'axe vertical.
+
+    La fonction CSS invert() permet d'inverser les couleurs de l'image.
+
+    La propriété CSS backdrop-filter permet d'obtenir un effet de flou ou de diffusion de la couleur sur la zone derrière l'élément.
+    L'effet étant situé derrière l'élément, il pourra être observé en ajustant la transparence de l'élément.
+*/
+
+
+
+
+*{
+    color: #111;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    /* scroll-behavior: smooth; */
+    /* font-size: 1.3em; */
+}
+
+p{
+    color: #111;
+    font-weight: 300;
+}

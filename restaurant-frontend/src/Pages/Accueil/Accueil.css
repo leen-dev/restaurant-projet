@@ -1,0 +1,110 @@
+:root {
+    --orange: #ff6b6b;
+    --org: #fb911f;
+    --orange-clair: #fb911f4f;
+    --fushia: #794afa;
+    --grisf: #453c5c;
+
+    --blanc: #ffffff;
+    --bg-light: #f2f3f5;
+    --text-light: #7c899a;
+    --border: #e5e8ec;
+    --dark: #0a021c;
+
+    --font-small: 13px;
+    --font-smaller: 11px;
+
+    --pc100: 100%;
+    --pc50: 50%;
+
+    --fw3: 300;
+    --fw5: 500;
+    --fw6: 600;
+    --fw7: 700;
+    --fw8: 800;
+
+    --transition-bgcolor: background-color .3s, color .3s;
+    --transition-bg: background-color: .3s;
+    --transition-color: color .3s;
+}
+
+.banniere{
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    max-height: 100vh;
+    /* align-items: center; */
+    background-image: url('../../components/images/fond.jpeg'); /* Ajuste le chemin si nécessaire */
+    background-size: cover;
+    background-position: center;
+    /* display: flex;
+    flex-direction: column;
+    /* justify-content: center; Centre le contenu 
+    align-items: center; */
+    
+}
+
+.banniere::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    background-image: inherit;
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px); 
+    z-index: 1;
+}
+
+.banniere .contenu {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: var(--dark);
+    padding-top: 80px;
+}
+
+.banniere .contenu h2{
+    color: var(--dark);
+    font-size: 3em;
+    text-transform: capitalize;
+}
+
+.contenu p:nth-child(2){
+    color: var(--dark);
+    font-size: 1.2em;
+}
+
+.btn1{
+    color: #fff;
+    font-size: 1em;
+    background-color: #fb911f;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+.btn1:hover{
+    letter-spacing: 6px;
+}
+
+.btn2{
+    color: #fff;
+    font-size: 1em;
+    background-color: #2a4963;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
