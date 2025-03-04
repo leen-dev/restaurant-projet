@@ -31,7 +31,7 @@ L'API sera accessible sur `http://127.0.0.1:8000`.
 #### 📌 Prérequis
 Avant d'exécuter le frontend, assure-toi d'avoir installé :
 - Node.js (>= 18.x)
-- npm ou yarn
+- Yarn
 
 #### ⚙️ Installation
 1. Aller dans le dossier `restaurant-frontend`.
